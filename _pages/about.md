@@ -15,28 +15,7 @@ redirect_from:
 📚 Feel free to browse through my website, where I'll be showcasing my projects and sharing insights from my journey. Don't hesitate to reach out through email or LinkedIn if you want to get in touch!
 
 
-
-<style>
-.my-button {
-  display: inline-block;
-  padding: 10px 40px;
-  background-color: white;
-  border: 2px solid grey;
-  color: grey;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.my-button:hover {
-  background-color: lightgrey;
-  color: white;
-}
-
-.my-button:active {
-  background-color: darkgrey;
-  color: white;
-}
-</style>
 <p align="center">
-    <a class="my-button" href="https://alberto-mate.github.io/portfolio/">See Portfolio</a>
+    <a class="btn" href="https://alberto-mate.github.io/portfolio/">See Portfolio</a>
 </p>
 

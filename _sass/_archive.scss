@@ -27,6 +27,12 @@
   }
 }
 
+.archive__item{
+  p {
+    font-size: $type-size-6;
+    margin: 0;
+  }
+}
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
@@ -63,6 +69,7 @@
 
   & + p {
     text-indent: 0;
+    font-size: $type-size-6;
   }
 }
 

@@ -6,6 +6,25 @@
    Default button
    ========================================================================== */
 
+.my-button {
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: white;
+  border: 2px solid grey;
+  color: grey;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.my-button:hover {
+  background-color: lightgrey;
+  color: white;
+}
+
+.my-button:active {
+  background-color: darkgrey;
+  color: white;
+}
+
 .btn {
   /* default button */
   display: inline-block;
