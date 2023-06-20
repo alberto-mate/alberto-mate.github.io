@@ -7,8 +7,10 @@ author_profile: true
 
 {% include base_path %}
 
-
+<p>🚀 Welcome to my portfolio page, where you can explore a captivating collection of my projects. </p>
 {% for post in site.portfolio %}
-  {% include archive-single.html %}
+  {% include archive-single.html type="grid" %}
 {% endfor %}
+
+
 
