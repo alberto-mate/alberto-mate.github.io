@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Alberto Maté"
   avatar           : "profile_picture.jpeg"
-  bio              : "Data Scientist and ML Engineer"
+  bio              : "📊 Data Scientist and ML Engineer"
   location         : "Madrid, Spain"
   employer         : "Dive.tech"
-  pubmed           : ""
-  googlescholar    : ""
+  pubmed           : 
+  googlescholar    : 
   email            : 
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
