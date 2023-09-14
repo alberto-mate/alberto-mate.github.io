@@ -4,14 +4,14 @@ excerpt: "MRI image classifier using ResNet50 arquitecture for Alzheimer's disea
 collection: portfolio
 ---
 <p align="center">
-  <img width="50%" src='/images/project-MRI-Classifier/diagram.png'>
+  <img width="80%" src='/images/project-MRI-Classifier/diagram.png'>
 </p>
 In this project convolutional neural networks will be applied on a dataset of MRI images with the aim of generating a model capable of predicting the degree ofAlzheimer's disease of any patient. We will focus on the detection of Alzheimer's disease and its different degrees based on 2D images of Magnetic Resonance Imaging(MRI) scans.
 
 Furthermore, a grad-camera will be applied to the model in order to visualize the areas of the image that have been more relevant for the classification.
 
 <p align="center">
-  <img width="50%" src='/images/project-MRI-Classifier/grad-cam.png'>
+  <img width="80%" src='/images/project-MRI-Classifier/grad-cam.png'>
 </p>
 
 ## Dataset
