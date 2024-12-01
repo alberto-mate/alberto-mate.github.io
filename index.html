@@ -14,165 +14,158 @@
   </head>
 
   <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  👋🏼 Hi! I’m Alberto!
-                  <p></p>
-
-                  <p>👨🏻‍💻 I’m a Computer Vision and AI engineer with over two years of experience developing and optimizing AI models for real-world applications. My expertise spans <strong>multimodal learning, video understanding</strong>, and deploying scalable, production-ready models, shaped through hands-on research and industry experience.</p>
-                  
-                  <p>🔬 Currently, I’m pursuing my Master’s Thesis at the <a href="https://cvml.comp.nus.edu.sg/">CVML lab</a> at the <strong>National University of Singapore (NUS)</strong>, working on advanced video moment retrieval models.</p>
-                  
-                  <p>📚 Feel free to explore my website to learn more about my projects and insights from my journey in AI. </p>
-                <p style="text-align:center">
-                  <a href="mailto:albertomate44@gmail.com">Email</a> &nbsp;/&nbsp;
-                  <a href="data/Alberto_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a> &nbsp;/&nbsp;
-                  <!-- <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Scholar</a> &nbsp;/&nbsp; -->
-                  <!-- <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp;/&nbsp; -->
-                  <a href="https://github.com/alberto-mate" target="_blank" rel="noopener noreferrer">GitHub</a> &nbsp;/&nbsp;
-                  <a href="https://www.linkedin.com/in/alberto-mate-angulo/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                </p>
-              </td>
-              <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href=""><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="img/profile_picture.jpeg" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:0px 20px;width:100%;vertical-align:middle">
-                <h2>Projects</h2>
-                <p>
-                  Welcome to my project portfolio! Explore a selection of my projects, showcasing my work. 🚀 
-
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-      <div style="display: flex; align-items: flex-start; gap: 20px; padding: 20px;">
-        <div style="flex: 0 0 280px; display: flex; justify-content: center;" class="cover" >
-          <img src="img/rl_train.gif"  alt="Image">
-        </div>
-      
-        <divstyle="flex: 1; max-width: 600px;">
-          <a href="" >
-            <span class="papertitle">
-              CARLA-SB3-RL: An Open-Source Framework for Deep Reinforcement Learning using StableBaselines3 in CARLA simulator
-            </span>
-          </a>
-          <br>
-          <a href="https://github.com/alberto-mate/CARLA-SB3-RL-Training-Environment" class="btn btn-github">
-            <i class="fab fa-github"></i> GitHub
-          </a>
-          <p>
-            <strong>⭐ 50+ stars on GitHub</strong> <br>
-            This project introduces an out-of-the-box training and evaluation environment for deep reinforcement learning (DRL) in the CARLA simulator based on StableBaselines3 library. This project was made as part of my Bachelor’s thesis.        
+    <div class="container">
+      <div class="profile-section">
+        <div class="profile-content">
+          <p class="name">
+            👋🏼 Hi! I'm Alberto!
           </p>
-      </div>
-
-      <div style="display: flex; align-items: flex-start; gap: 20px; padding: 20px;">
-        <a href="img/demo_gif.gif" >
-          <div style="flex: 0 0 280px; display: flex; justify-content: center;" class="contain">
-            <img src="img/demo_gif.gif"  alt="Image"> 
-            <!-- <video id="demoVideo" muted autoplay loop>
-              <source src="img/demo.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video> -->
-          </div>
-        </a>
-      
-        <divstyle="flex: 1; max-width: 600px;">
-          <a href="" >
-            <span class="papertitle">
-              Multi-camera multi-tracking with YoloV7 for detection people position
-            </span>
-          </a>
-          <br>
-
-          <p>
-            A multi-camera pedestrian tracking system that fuses views from multiple cameras observing the same scene. The system uses YOLOv7 for initial person detection, projects the detected bounding boxes onto a common ground plane using homography transformations, and applies filtering, clustering, and tracking algorithms to accurately determine people's positions in real-time.
-          </p>
-      </div>
-
-      <div style="display: flex; align-items: flex-start; gap: 20px; padding: 20px;">
-        <div style="flex: 0 0 280px; display: flex; justify-content: center;" class="cover">
-            <video id="demoVideo" muted autoplay loop>
-              <source src="img/demo_REDQ.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-        </div>
-      
-        <divstyle="flex: 1; max-width: 600px;">
-          <a href="https://github.com/alberto-mate/REDQ" >
-            <span class="papertitle">
-              REDQ Implementation: Randomized Ensembled Double Q-Learning in PyTorch
-            </span>
-          </a>
-          <br>
-          <a href="https://github.com/alberto-mate/REDQ" class="btn btn-github">
-            <i class="fab fa-github"></i> GitHub
-          </a>
-          <a href="https://github.com/alberto-mate/REDQ/blob/main/docs/REDQ_report.pdf" class="btn btn-report">
-            <i class="fa-solid fa-newspaper"></i> Report
-          </a>
+          <p>👨🏻‍💻 I'm a Computer Vision and AI engineer with over two years of experience developing and optimizing AI models for real-world applications. My expertise spans <strong>multimodal learning, video understanding</strong>, and deploying scalable, production-ready models, shaped through hands-on research and industry experience.</p>
           
-          <p>
-            Clean PyTorch implementation of Randomized Ensembled Double Q-Learning,  a model-free reinforcement learning algorithm that achieves high sample efficiency in continuous action space domains.
-            It demonstrates faster learning than SAC on OpenAI Gym environments.
+          <p>🔬 Currently, I'm pursuing my Master's Thesis at the <a href="https://cvml.comp.nus.edu.sg/">CVML lab</a> at the <strong>National University of Singapore (NUS)</strong>, working on advanced video moment retrieval models.</p>
+          
+          <p>📚 Feel free to explore my website to learn more about my projects and insights from my journey in AI. </p>
+          <p style="text-align:center" class="social-links">
+            <a href="mailto:albertomate44@gmail.com">Email</a> &nbsp;/&nbsp;
+            <a href="data/Alberto_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a> &nbsp;/&nbsp;
+            <!-- <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Scholar</a> &nbsp;/&nbsp; -->
+            <!-- <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp;/&nbsp; -->
+            <a href="https://github.com/alberto-mate" target="_blank" rel="noopener noreferrer">GitHub</a> &nbsp;/&nbsp;
+            <a href="https://www.linkedin.com/in/alberto-mate-angulo/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </p>
+        </div>
+        <div class="profile-image">
+          <img src="img/profile_picture.jpeg" alt="profile photo" style="border-radius: 50%;">
+        </div>
       </div>
 
-      <div style="display: flex; align-items: flex-start; gap: 20px; padding: 20px;">
-        <div style="flex: 0 0 280px; display: flex; justify-content: center;" class="cover">
-          <img src="img/output_frames.gif"  alt="Image">
+      <div class="projects-section">
+        <h2>Projects</h2>
+        <p>Welcome to my project portfolio! Explore a selection of my projects, showcasing my work. 🚀</p>
+        
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="cover project-media">
+              <img src="img/rl_train.gif"  alt="Image">
+            </div>
+            <div class="project-content">
+              <a href="" >
+                <span class="papertitle">
+                CARLA-SB3-RL: An Open-Source Framework for Deep Reinforcement Learning using StableBaselines3 in CARLA simulator
+              </span>
+              </a>
+            <br>
+            <a href="https://github.com/alberto-mate/CARLA-SB3-RL-Training-Environment" class="btn btn-github">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <p>
+              <strong>⭐ 50+ stars on GitHub</strong> <br>
+              This project introduces an out-of-the-box training and evaluation environment for deep reinforcement learning (DRL) in the CARLA simulator based on StableBaselines3 library. This project was made as part of my Bachelor's thesis.        
+            </p>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="cover project-media">
+                <img src="img/demo_gif.gif"  alt="Image"> 
+                <!-- <video id="demoVideo" muted autoplay loop>
+                  <source src="img/demo.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video> -->
+            </div>
+            <div class="project-content">
+              <a href="" >
+                <span class="papertitle">
+                Multi-camera multi-tracking with YoloV7 for detection people position
+              </span>
+            </a>
+            <br>
+            <p>
+              A multi-camera pedestrian tracking system that fuses views from multiple cameras observing the same scene. The system uses YOLOv7 for initial person detection, projects the detected bounding boxes onto a common ground plane using homography transformations, and applies filtering, clustering, and tracking algorithms to accurately determine people's positions in real-time.
+            </p>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="cover project-media">
+              <video id="demoVideo" muted autoplay loop>
+                <source src="img/demo_REDQ.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="project-content">
+              <a href="https://github.com/alberto-mate/REDQ" >
+                <span class="papertitle">
+                REDQ Implementation: Randomized Ensembled Double Q-Learning in PyTorch
+              </span>
+            </a>
+            <br>
+            <a href="https://github.com/alberto-mate/REDQ" class="btn btn-github">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://github.com/alberto-mate/REDQ/blob/main/docs/REDQ_report.pdf" class="btn btn-report">
+              <i class="fa-solid fa-newspaper"></i> Report
+            </a>
+            <p>
+              Clean PyTorch implementation of Randomized Ensembled Double Q-Learning,  a model-free reinforcement learning algorithm that achieves high sample efficiency in continuous action space domains.
+              It demonstrates faster learning than SAC on OpenAI Gym environments.
+            </p>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="cover project-media">
+              <img src="img/output_frames.gif"  alt="Image">
+            </div>
+            <div class="project-content">
+              <a href="" >
+                <span class="papertitle">
+                Gravitational Simulator for performance-oriented programming in C++
+              </span>
+            </a>
+            <br>
+            <a href="https://github.com/alberto-mate/Gravitational-Simulator-cpp" class="btn btn-github">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <p>
+              This project analyzes and compares the performance of Array of Structures (AoS) and Structure of Arrays (SoA) in a C++ gravitational simulator, focusing on efficiency improvements. Additionally, it explores performance gains from parallelizing the code with OpenMP for multi-threaded execution.          </p>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="cover project-media">
+              <img src="img/grad-cam _bg2.png"  alt="Image">
+            </div>
+            <div class="project-content">
+              <a href="" >
+                <span class="papertitle">
+                  CNN-based MRI Classification for Alzheimer's Disease Detection
+                </span>
+              </a>
+              <br>
+            <a href="https://github.com/alberto-mate/MRI-Alzheimer-Classifier" class="btn btn-github">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <p>
+              This project uses CNNs to classify MRI scans and predict Alzheimer's disease severity across four stages: NonDemented, VeryMildDemented, MildDemented, and ModerateDemented. Grad-CAM is applied to visualize key brain areas influencing the model's classification decisions.    
+            </p>
+          </div>
         </div>
-      
-        <divstyle="flex: 1; max-width: 600px;">
-          <a href="" >
-            <span class="papertitle">
-              Gravitational Simulator for performance-oriented programming in C++
-            </span>
-          </a>
-          <br>
-          <a href="https://github.com/alberto-mate/Gravitational-Simulator-cpp" class="btn btn-github">
+        <div class="project-card">
+        <div class="cover project-media">
+            <img src="img/gmeans_paper.png"  alt="Image">
+          </div>
+          <div class="project-content">
+            <a href="" >
+              <span class="papertitle">
+                G-means: Implementation of the "Learning the k in k-means" paper
+              </span>
+            </a>
+            <br>
+          <a href="https://github.com/alberto-mate/G-Means" class="btn btn-github">
             <i class="fab fa-github"></i> GitHub
           </a>
           <p>
-            This project analyzes and compares the performance of Array of Structures (AoS) and Structure of Arrays (SoA) in a C++ gravitational simulator, focusing on efficiency improvements. Additionally, it explores performance gains from parallelizing the code with OpenMP for multi-threaded execution.          </p>
-      </div>
-      
-      <div style="display: flex; align-items: flex-start; gap: 20px; padding: 20px;">
-        <div style="flex: 0 0 280px; display: flex; justify-content: center;" class="cover">
-          <img src="img/grad-cam _bg2.png"  alt="Image">
+            GMeans is an adaptive clustering algorithm that automatically determines the optimal number of clusters by recursively applying a statistical hypothesis test to validate the Gaussian distribution of cluster subgroups. By extending KMeans with a principled statistical approach, the algorithm dynamically splits clusters and assesses their statistical coherence, enabling data-driven cluster selection without manual tuning.          
+          </p>           
+
         </div>
-      
-        <divstyle="flex: 1; max-width: 600px;">
-          <a href="" >
-            <span class="papertitle">
-              CNN-based MRI Classification for Alzheimer's Disease Detection
-            </span>
-          </a>
-          <br>
-          <a href="https://github.com/alberto-mate/MRI-Alzheimer-Classifier" class="btn btn-github">
-            <i class="fab fa-github"></i> GitHub
-          </a>
-          <p>
-            This project uses CNNs to classify MRI scans and predict Alzheimer's disease severity across four stages: NonDemented, VeryMildDemented, MildDemented, and ModerateDemented. Grad-CAM is applied to visualize key brain areas influencing the model's classification decisions.    
-          </p>
       </div>
-
-
-
-     
-      </tbody></table>
-    </td>
-  </tr>
-</tbody></table>
-</body>
+    </div>
+  </body>
