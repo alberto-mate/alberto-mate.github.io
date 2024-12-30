@@ -169,9 +169,18 @@ h2 {
   background: linear-gradient(135deg, #f87171, hsl(36, 100%, 53%));
 }
 
+.btn-arxiv {
+  background: linear-gradient(125deg, #b31b1b, #7a2e2e);
+}
+
 /* Utility Classes */
 span.highlight {
   background-color: #ffffd0;
+}
+
+.authors {
+  font-weight: 200;
+  margin-top: 4px;
 }
 
 /* Responsive Design */
