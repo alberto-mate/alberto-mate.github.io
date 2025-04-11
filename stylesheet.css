@@ -169,6 +169,10 @@ h2 {
   background: linear-gradient(135deg, #f87171, hsl(36, 100%, 53%));
 }
 
+.btn-web {
+  background: linear-gradient(105deg, #46a86f, #04c796);
+}
+
 .btn-arxiv {
   background: linear-gradient(125deg, #b31b1b, #7a2e2e);
 }
